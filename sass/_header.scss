@@ -1,0 +1,44 @@
+.header {
+    background-color: rgba(49, 225, 61, 0.666);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+
+    &__logo {
+        border: 1px solid red;
+        padding: 0.7rem;
+        border-radius: 100px;
+    }
+
+    &__notification {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.search {
+    display: flex;
+    flex:0 0 40%;
+
+    &__input {
+        border: none;
+        border-radius: 100px;
+        padding: 0.5rem;
+        flex:0 0 100%;
+        
+
+    }
+
+    &__button {
+        background-color:transparent;
+        transform: translateX(-3rem);
+    }
+    &__icon {
+        width: 1.75em;
+        height: 1.75rem;
+    }
+}
