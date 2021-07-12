@@ -12,6 +12,7 @@
         border: 1px solid red;
         padding: 0.7rem;
         border-radius: 100px;
+        margin-left: 1rem;
     }
 
     &__notification {
@@ -38,7 +39,7 @@
         transform: translateX(-3rem);
     }
     &__icon {
-        width: 1.75em;
+        width: 1.75rem;
         height: 1.75rem;
     }
 }
