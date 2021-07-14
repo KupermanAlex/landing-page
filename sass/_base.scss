@@ -1,23 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     outline: none;
-    border:none;
+    border: none;
 }
 *,
 *::before,
-*::after {   
+*::after {
     box-sizing: inherit;
-    
 }
 
 a,
 a:visited,
-a:hover{
+a:hover {
     text-decoration: none;
 }
 ul,
-li{
+li {
     list-style: none;
 }
 
@@ -35,7 +34,6 @@ $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
 
-
 $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5643fa;
 
@@ -46,13 +44,11 @@ $color-btn: #f56a6a;
 
 // FONTS
 
-$font-main:"Open Sans", sans-serif;
+$font-main: "Open Sans", sans-serif;
 
-
-.btn{
-
+.btn {
     margin-top: 2rem;
-   
+
     border-radius: 0.375em;
     border: 0;
     box-shadow: inset -1px 2px 20px 0px $color-btn;
@@ -70,9 +66,9 @@ $font-main:"Open Sans", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
-    transition: all .4s;
+    transition: all 0.4s;
 
-    &:hover{
+    &:hover {
         box-shadow: inset -1px -3px 20px 3px $color-btn;
     }
 }

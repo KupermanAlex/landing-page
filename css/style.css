@@ -42,7 +42,7 @@ html {
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
-  transition: all .4s; }
+  transition: all 0.4s; }
   .btn:hover {
     box-shadow: inset -1px -3px 20px 3px #f56a6a; }
 
@@ -158,3 +158,35 @@ html {
       font-size: 13pt;
       font-weight: 400;
       line-height: 1.65; }
+
+.sidebar {
+  box-shadow: 0 0 5rem 0 black;
+  height: 100vh;
+  width: 20vw;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1000;
+  background-color: #7ed56f; }
+  .sidebar__heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #2998ff;
+    display: inline-block; }
+  .sidebar__menu {
+    padding-bottom: 2rem;
+    margin: 0.6rem 0.8rem; }
+    .sidebar__menu--item {
+      position: relative;
+      font-size: 1.5rem;
+      font-family: "Open Sans", sans-serif;
+      padding: 0.7rem 0;
+      cursor: pointer;
+      border-bottom: 1px solid #000; }
+  .sidebar__last-view {
+    margin: 0.6rem 0.8rem; }
+    .sidebar__last-view--item {
+      padding: 1rem 0.2rem; }
+    .sidebar__last-view--item__img {
+      width: 100%;
+      border-radius: 5px; }

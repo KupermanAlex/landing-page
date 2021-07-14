@@ -3,7 +3,7 @@
     height: 10vh;
     width: 100%;
     display: flex;
-    
+
     justify-content: space-between;
     align-items: center;
     color: red;
@@ -23,19 +23,17 @@
 
 .search {
     display: flex;
-    flex:0 0 40%;
+    flex: 0 0 40%;
 
     &__input {
         border: none;
         border-radius: 100px;
         padding: 0.5rem;
-        flex:0 0 100%;
-        
-
+        flex: 0 0 100%;
     }
 
     &__button {
-        background-color:transparent;
+        background-color: transparent;
         transform: translateX(-3rem);
     }
     &__icon {
