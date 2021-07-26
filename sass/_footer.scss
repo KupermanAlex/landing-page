@@ -1,0 +1,24 @@
+.footer {
+    height: 10%;
+    background-color: $color-primary-dark;
+    font-family: $font-main;
+    display: flex;
+    justify-content: center;
+
+    &__list{
+        display: flex;
+        
+    }
+    &__item{
+        margin-right: 2rem;
+        font-weight: 600;
+        line-height: 3.5rem;
+        transform: scale(1);
+        transition: all 0.3s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+}
