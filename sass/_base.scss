@@ -1,3 +1,28 @@
+// RESPONSIVE BREAKPOINTS
+$bp-medium: 50em; // 800px;
+
+//COLOR
+
+$color-primary: #21b2a6;
+$color-primary-light: #c8ece9;
+$color-primary-dark: #28b485;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-bgc-light: #2b343d;
+$color-bgc-dark: #273038;
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-btn: #f56a6a;
+
+// FONTS
+
+$font-main: "Open Sans", sans-serif;
+$font-btn: "Roboto Slab", serif;
+
 * {
     margin: 0;
     padding: 0;
@@ -24,38 +49,22 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
     display: block;
+    background-color: $color-primary-light;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 50%;
+    }
 }
-
-// VARIABLES
-
-//COLOR
-
-$color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
-
-$color-tertiary-light: #2998ff;
-$color-tertiary-dark: #5643fa;
-
-$color-white: #fff;
-$color-black: #000;
-
-$color-btn: #f56a6a;
-
-// FONTS
-
-$font-main: "Open Sans", sans-serif;
 
 .btn {
     margin-top: 2rem;
-
+    width: 10rem;
     border-radius: 0.375em;
-    border: 0;
     box-shadow: inset -1px 2px 20px 0px $color-btn;
     color: $color-btn;
     cursor: pointer;
-    display: inline-block;
-    font-family: "Roboto Slab", serif;
+    display: block;
+    font-family: $font-btn;
     font-size: 0.8em;
     font-weight: 700;
     height: 2.5rem;
@@ -70,5 +79,10 @@ $font-main: "Open Sans", sans-serif;
 
     &:hover {
         box-shadow: inset -1px -3px 20px 3px $color-btn;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        text-align: center;
+        font-size: 50%;
     }
 }

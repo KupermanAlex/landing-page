@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-image: linear-gradient(to bottom, rgba(49, 225, 61, 0.666), rgba(49, 225, 61, 0.01)),
         url("/img/hero.jpg");
     background-size: cover;
@@ -16,15 +15,14 @@
         text-transform: uppercase;
         text-align: center;
         font-size: 5rem;
-        font-family: Open Sans;
+        font-family: $font-main;
         font-weight: 600;
-
-        animation-name: moveInRight;
+        animation-name: moveDown;
         animation-duration: 1s;
         animation-timing-function: ease-out;
     }
 
-    @keyframes moveInRight {
+    @keyframes moveDown {
         0% {
             opacity: 0;
             transform: translateY(-10rem);
