@@ -91,7 +91,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to bottom, rgba(49, 225, 61, 0.666), rgba(49, 225, 61, 0.01)), url("/img/hero.jpg");
+  background-image: linear-gradient(to bottom, rgba(49, 225, 61, 0.666), rgba(49, 225, 61, 0.01)), url("/img/hero.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -143,10 +143,10 @@ html {
   text-align: center; }
 
 .features {
-  width: 100%;
   display: flex;
   flex-wrap: wrap; }
   .features__item {
+    width: 100%;
     display: flex;
     background-color: #2b343d;
     color: #fff; }
